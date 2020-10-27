@@ -1,0 +1,96 @@
+body {
+    background-color: azure;
+    text-align: center;
+    margin:0 auto
+}
+
+li {
+    padding: 0;
+    text-align:center;
+    margin: 0;
+}
+.btn{
+    cursor: pointer;
+}
+
+h2 {
+    display:none;
+    text-align: center;
+    margin:0 auto
+}
+
+h1 {
+    color: #2c6eb1;
+    transition : color 0.5s ease-in-out;
+    text-align: center;
+    margin:0 auto
+}
+
+.clicked {
+    color: lightslategrey;
+    text-align: center;
+    margin:0 auto
+
+}
+
+
+.form{
+    display:none;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.greetings{
+    text-align: center;
+    padding-bottom: 10px;
+    color: black ;
+}
+
+.showing {
+    display:block;
+    text-align: center;
+    margin:0 auto
+}
+
+
+@keyframes fadIn{
+    form{
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.bgimage {
+    position: absolute;
+    top:0;
+    left:0; 
+    z-index: -1; 
+    width:100%;
+    background-size:10% 10%;
+    
+}
+
+
+.weather {
+    font-family: 돋음;
+    font-size: 10px;
+    font-weight:900;
+    text-align: center;
+    margin:0 auto
+}
+
+.button {
+    background-color:rgba(255, 255, 255, 0.616);
+    border: none;
+    color: darkolivegreen;
+    padding: 3px auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:8px ;
+    font-weight:300;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
